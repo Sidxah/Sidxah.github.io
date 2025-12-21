@@ -23,7 +23,7 @@ My research interests lie at the intersection of **deep learning** and **multimo
 
 ## Background
 
-I hold a **Double Bachelor's degree in Mathematics and Computer Science** from [Sorbonne Paris Nord University](https://www.univ-paris13.fr/), where I ranked **5th out of 105 students** (GPA: 3.5/4.0). This dual training provided me with solid foundations in both theoretical mathematics and practical computer science.
+I hold a **Double Bachelor's degree in Mathematics and Computer Science** from [Sorbonne Paris Nord University](https://www.univ-paris13.fr/). This dual training provided me with solid foundations in both theoretical mathematics and practical computer science.
 
 During my studies, I completed an internship as an **AI Engineer at PyxiScience** (Station F, Paris), where I designed evaluation frameworks for comparing large language models (GPT-4, Gemini, DeepSeek) on mathematical reasoning tasks. I developed advanced prompting methodologies that improved content quality by 40%.
 
