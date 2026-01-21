@@ -5,117 +5,107 @@
       value: Sid Ahmed Bouamama
     - name: Email
       value: sidahmedbouamama@gmail.com
+    - name: Location
+      value: Île-de-France, France
     - name: Languages
       value: French (Native), English (Bilingual), Arabic (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: M1 Quantum and Distributed Computer Science (QDCS)
+    - title: Master 1 – Quantum & Distributed Computer Science (QDCS)
       institution: Université Paris-Saclay, Orsay, France
-      year: 2025 - 2026
+      year: 2024 – 2026
       description:
-        - "Focus: Machine Learning, Deep Learning, High-Performance Computing"
-        - "Relevant Courses: ML Algorithms, Applied Statistics, Distributed Algorithms, Advanced Optimization"
-        - "Self-directed: Stanford CS231n (Computer Vision), Deep Learning Specialization"
-    
-    - title: Double Bachelor's Degree in Mathematics and Computer Science
-      institution: Université Sorbonne Paris Nord, Villetaneuse, France
-      year: 2022 - 2025
-      description:
-        - "GPA: 3.5/4.0 | Rank: 5th out of 105 students"
-        - "Core subjects: Advanced Statistics, Operations Research, Linear Algebra, Graph Theory, Algorithms & Complexity"
+        - "Mathematics for Data Science: 20.75/20"
+        - "Relevant Coursework: Machine Learning, Statistical Learning, Optimization, High-Performance Computing, Deep Learning"
+        - "Self-Directed: Stanford CS231n, Deep Learning Specialization (deeplearning.ai)"
 
-- title: Experience
+    - title: Double Licence Mathématiques & Informatique
+      institution: Université Sorbonne Paris Nord – Institut Galilée, Villetaneuse, France
+      year: 2021 – 2024
+      description:
+        - "Rank: Top 7 across all Mathematics and Computer Science programs (L3)"
+        - "Key Grades: Functional Programming (20/20), Linear Algebra (16/20)"
+        - "Overall: L1: 14.73/20 (Bien) — L2: 15.29/20 (Bien)"
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: AI Engineer Intern
-      institution: PyxiScience, Station F, Paris
-      year: 2025
+    - title: TER Research Project – Fine-Grained Text Supervision in CLIP
+      institution: CEA LIST (LASTI Lab), Université Paris-Saclay
+      year: Jan – Apr 2026
       description:
-        - Designed systematic evaluation framework comparing GPT-4, Gemini, and DeepSeek on mathematical reasoning tasks
-        - Developed two-stage prompting methodology improving content quality by 40%
-        - Implemented AST-based code analysis and automated hallucination detection
-        - Built parallel AI pipeline with asynchronous API handling for scalable content generation
+        - "Supervisor: Prof. Adrian Popescu"
+        - "Investigating the effect of fine-grained textual descriptions on CLIP-style multimodal representation learning"
+        - "Collaboration with PhD candidate Mehdi Zakaria Adjal"
 
-    - title: Hackathon Participant
-      institution: Hi!Paris Hackathon – Polytechnique × HEC
-      year: 2024
-      description:
-        - Developed multi-variate weather prediction model using AutoML approaches
-        - Achieved 55% accuracy on complex forecasting task, top 30% among 200+ participants
-        - Applied feature engineering, ensemble methods, and weighted F1-score optimization
-
-- title: Projects
-  type: time_table
-  contents:
     - title: CLIP Implementation from Scratch
+      institution: Self-Directed Research Project
+      year: Oct 2025 – Present
+      description:
+        - "Reproducing Radford et al. (2021) to understand vision-language alignment"
+        - "ResNet-50 vision encoder + Transformer text encoder from scratch"
+        - "Achieved 76%+ zero-shot accuracy on CIFAR-10"
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: AI Research Engineer (CDD)
+      institution: PyxiScience – AI-Powered Adaptive Learning Platform, Paris (Station F)
+      year: Aug 2025 – Present
+      description:
+        - "Designed systematic LLM evaluation framework comparing GPT-4, Gemini, and DeepSeek"
+        - "Developed two-stage prompt engineering methodology, improving content quality by 40%"
+        - "Implemented AST-based code analysis and automated hallucination detection"
+        - "Working under Jacques Lévy Véhel (former INRIA Research Director, 4,200+ citations)"
+
+    - title: Data Science Intern
+      institution: PyxiScience, Paris
+      year: May – Aug 2025
+      description:
+        - "Developed prompt optimization pipelines improving exercise generation accuracy by 35%"
+        - "Implemented automated LaTeX parsing and validation systems"
+
+- title: Achievements
+  type: time_table
+  contents:
+    - title: Top 3 / 400+ participants
+      institution: Hi! Paris Hackathon 2025 – PISA Education Data Challenge
       year: 2025
       description:
-        - Reproducing Radford et al. (2021) for multimodal representation learning
-        - Dual-encoder model with ResNet-50 (image) and Transformer (text)
-        - Training on Flickr30k with contrastive learning objective
-        
-    - title: Bayesian Image Super-Resolution
-      year: 2025
-      description:
-        - Implementing deep modeling of image statistics for super-resolution
-        - PyTorch implementation with Bayesian prior regularization
+        - "Polytechnique × HEC"
+        - "Built ensemble ML models (XGBoost, LightGBM) predicting student MathScore"
+        - "Advanced feature engineering on 1.7M records with 50%+ missing data"
 
-    - title: Sentiment Analysis (NLP)
+    - title: Top 20 / 200+ participants
+      institution: Hi! Paris Hackathon 2024 – AI & Sustainability
       year: 2024
       description:
-        - IMDB dataset sentiment classification using Scikit-learn and NLP techniques
-        - Jupyter Notebook-based analysis with Pandas and visualization
-
-    - title: Knapsack Algorithm Comparison
-      year: 2024
-      description:
-        - Comparative analysis of dynamic programming, greedy, and backtracking approaches
-        - Performance visualization and complexity analysis
+        - "Developed ML model for groundwater level forecasting"
+        - "Applied temporal feature engineering and AutoGluon ensemble optimization"
 
 - title: Technical Skills
   type: nested_list
   contents:
+    - title: Deep Learning
+      items:
+        - PyTorch, torchvision, Hugging Face Transformers, TensorFlow
+    - title: ML & Data Science
+      items:
+        - Scikit-learn, XGBoost, LightGBM, AutoGluon, Optuna, Pandas, NumPy
     - title: Programming
       items:
-        - Python, C++, C, Java, SQL, OCaml
-        - Git, Linux, Docker, LaTeX
-    - title: Machine Learning & AI
-      items:
-        - PyTorch, torchvision, Hugging Face Transformers
-        - Scikit-learn, AutoGluon, LangChain
-        - Prompt Engineering, LLM API Integration, RAG
+        - Python, C/C++, SQL, Java, OCaml, Git, Linux, Docker
     - title: Concepts
       items:
-        - CNNs, Transformers, Self-Supervised Learning
-        - Contrastive Learning, Vision-Language Models
-    - title: Data Science
-      items:
-        - Pandas, NumPy, Matplotlib, Seaborn, Plotly
-        - Statistical Analysis, Predictive Modeling
-
-- title: Certifications
-  type: time_table
-  contents:
-    - title: AI Engineer for Developers Associate
-      institution: DataCamp
-      year: 2025
-    - title: Deep Learning Specialization
-      institution: deeplearning.ai
-      year: 2024-2025
-      description: In Progress (4/5 courses completed)
-    - title: Machine Learning Specialization
-      institution: deeplearning.ai
-      year: 2024
-    - title: Mathematics for ML & Data Science
-      institution: deeplearning.ai
-      year: 2024
+        - CNNs, Transformers, Self-Supervised Learning (CLIP, SimCLR, MAE, I-JEPA, DINO)
+        - Contrastive Learning, Vision-Language Models, Object Detection
 
 - title: Research Interests
   type: list
   contents:
-    - Self-Supervised Learning for Computer Vision
-    - Vision-Language Models and Multimodal Learning
-    - Few-Shot Learning and Transfer Learning
-    - Data-Efficient Learning Mechanisms
+    - Self-Supervised & Data-Efficient Learning
+    - Vision-Language Alignment & Contrastive Learning
+    - Computer Vision & Multimodal AI
+    - Few-Shot Learning & Robustness to Distribution Shifts

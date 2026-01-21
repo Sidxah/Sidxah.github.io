@@ -17,36 +17,57 @@ selected_papers: false
 social: true
 ---
 
-I am a first-year Master's student in **Quantum and Distributed Computer Science (QDCS)** at [Paris-Saclay University](https://www.universite-paris-saclay.fr/), with a strong focus on **Artificial Intelligence**, **Computer Vision**, and **Self-Supervised Learning**.
+I am a first-year Master's student in **Quantum and Distributed Computer Science (QDCS)** at [Paris-Saclay University](https://www.universite-paris-saclay.fr/), with a strong focus on **Computer Vision**, **Self-Supervised Learning**, and **Multimodal AI**.
 
-My research interests lie at the intersection of **deep learning** and **multimodal representation learning**. I am particularly interested in exploring how vision-language models like CLIP can learn from weak textual supervision, and how self-supervised methods can enable data-efficient learning mechanisms.
+## Research Interests
 
-## Background
+My research focuses on **deep representation learning in multimodal models**, particularly CLIP-style architectures that leverage weak textual supervision. I am currently exploring how **fine-grained textual descriptions** (specialized captions) affect vision-language alignment — an underexplored area due to the scarcity of such annotations.
 
-I hold a **Double Bachelor's degree in Mathematics and Computer Science** from [Sorbonne Paris Nord University](https://www.univ-paris13.fr/). This dual training provided me with solid foundations in both theoretical mathematics and practical computer science.
-
-During my studies, I completed an internship as an **AI Engineer at PyxiScience** (Station F, Paris), where I designed evaluation frameworks for comparing large language models (GPT-4, Gemini, DeepSeek) on mathematical reasoning tasks. I developed advanced prompting methodologies that improved content quality by 40%.
+**Keywords**: Self-Supervised Learning, Contrastive Learning (CLIP, SimCLR), Masked Autoencoders (MAE, I-JEPA), Vision-Language Models, Few-Shot Learning
 
 ## Current Work
 
-I am currently working on:
+**TER Research Project @ CEA LIST** *(Jan – Apr 2026)*
+- Investigating the effect of fine-grained textual descriptions on CLIP-like multimodal representation learning
+- Supervised by [Prof. Adrian Popescu](https://adrianpopescu.net/) (LASTI Lab)
+- Collaboration with PhD candidate Mehdi Zakaria Adjal
 
-- **CLIP Implementation from Scratch**: Reproducing the CLIP model (Radford et al., 2021) to deeply understand contrastive vision-language learning. [GitHub →](https://github.com/Sidxah)
-  
-- **Bayesian Image Super-Resolution**: Implementing modern approaches to image super-resolution using Bayesian deep learning principles.
+**CLIP Implementation from Scratch** — [GitHub →](https://github.com/Sidxah/CLIP-from-scratch)
+- Reproduced the CLIP model (Radford et al., 2021) to deeply understand vision-language alignment
+- ResNet-50 vision encoder + Transformer text encoder, trained on Flickr30k
+- Achieved **76%+ zero-shot accuracy** on CIFAR-10
 
-- **Preparing a TER (Master's Research Project)** on self-supervised learning for computer vision, focusing on temporal consistency as a supervision signal.
+**AI Research Engineer @ PyxiScience** *(Aug 2025 – Present)*
+- Designing LLM evaluation frameworks comparing GPT-4, Gemini, and DeepSeek
+- Working under [Jacques Lévy Véhel](https://scholar.google.com/citations?user=xxx) (former INRIA Research Director, 4,200+ citations)
+- Platform serves 10,000+ active students across European universities
+
+## Background
+
+I hold a **Double Bachelor's degree in Mathematics and Computer Science** from [Sorbonne Paris Nord University](https://www.univ-paris13.fr/) — **ranked Top 7** across all Math & CS programs in L3. This dual training provided solid foundations in both theoretical mathematics and practical computer science.
+
+## Achievements
+
+- 🥉 **Top 3 / 400+ participants** — Hi! Paris Hackathon 2025 (Polytechnique × HEC)
+- 📊 **20.75/20** in Mathematics for Data Science (Paris-Saclay)
+- 🎓 **Top 7** across all Math & CS programs at Sorbonne Paris Nord (L3)
 
 ## Technical Skills
 
+**Deep Learning**: PyTorch, Hugging Face Transformers, TensorFlow
+
+**Concepts**: CNNs, Transformers, Self-Supervised Learning (CLIP, SimCLR, MAE, I-JEPA, DINO), Contrastive Learning, Vision-Language Models
+
 **Programming**: Python, C/C++, Java, OCaml, SQL, Git, Linux, Docker
 
-**AI & ML**: PyTorch, Hugging Face Transformers, Scikit-learn, LangChain, Prompt Engineering
+**ML & Data Science**: Scikit-learn, XGBoost, LightGBM, Pandas, NumPy
 
-**Concepts**: CNNs, Transformers, Self-Supervised Learning, Contrastive Learning, Vision-Language Models
+## Looking For
 
-## Languages
+I am seeking a **1–4 month Research Internship** (May – August 2026) in:
+- Computer Vision
+- Self-Supervised Learning
+- Vision-Language Models
+- Multimodal AI
 
-- **French**: Native
-- **English**: Bilingual (research & academic)
-- **Arabic**: Native
+Feel free to reach out via [email](mailto:sidahmedbouamama@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sid-ahmed-bouamama/).
