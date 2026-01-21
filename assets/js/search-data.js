@@ -403,6 +403,11 @@ ninja.data = [{
           description: "Comparative analysis of optimization algorithms for the 0/1 Knapsack problem",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_knapsack/";
+            },},{id: "projects-clip-from-scratch",
+          title: 'CLIP from Scratch',
+          description: "A complete PyTorch implementation of CLIP with educational documentation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/clip_from_scratch/";
             },},{
         id: 'social-cv',
         title: 'CV',
