@@ -49,7 +49,6 @@ I hold a **Double Bachelor's degree in Mathematics and Computer Science** from [
 ## Achievements
 
 - 🥉 **Top 3 / 400+ participants** — Hi! Paris Hackathon 2025 (Polytechnique × HEC)
-- 📊 **20.75/20** in Mathematics for Data Science (Paris-Saclay)
 - 🎓 **Top 7** across all Math & CS programs at Sorbonne Paris Nord (L3)
 
 ## Technical Skills
