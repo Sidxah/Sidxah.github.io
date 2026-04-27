@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: A live view of my GitHub presence: main repositories and recent activity.
+description: "A live view of my GitHub presence — main repositories and recent activity."
 nav: true
 nav_order: 5
 ---
