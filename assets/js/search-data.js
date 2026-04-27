@@ -11,423 +11,136 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A collection of my research projects and implementations in AI, Computer Vision, and Machine Learning.",
+          description: "Selected research projects and implementations across the three areas I work in (Vision &amp;amp; Multimodal AI, Quantum Computing, HPC &amp;amp; Distributed Systems), plus applied AI engineering work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Manuscripts in preparation and (eventually) published work, in reverse chronological order. Generated by jekyll-scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Academic background, research experience, and selected achievements.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "A live view of my GitHub presence — main repositories and recent activity.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "news-graduated-with-a-double-bachelor-in-mathematics-amp-amp-computer-science-from-sorbonne-paris-nord-ranked-top-7-in-l3",
+          title: 'Graduated with a Double Bachelor in Mathematics &amp;amp;amp; Computer Science from Sorbonne Paris...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+          section: "News",},{id: "news-joined-pyxiscience-station-f-paris-as-ai-research-engineer-supervised-by-jacques-lévy-véhel-former-inria-research-director",
+          title: 'Joined PyxiScience (Station F, Paris) as AI Research Engineer, supervised by Jacques Lévy...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-m1-in-quantum-and-distributed-computer-science-qdcs-at-université-paris-saclay",
+          title: 'Started M1 in Quantum and Distributed Computer Science (QDCS) at Université Paris-Saclay.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-top-3-of-400-teams-at-the-hi-paris-hackathon-2025-polytechnique-hec-pisa-education-innovation-challenge",
+          title: 'Top 3 of 400+ teams at the Hi! Paris Hackathon 2025 (Polytechnique ×...',
           description: "",
-          section: "News",},{id: "projects-clip-from-scratch",
-          title: 'CLIP from Scratch',
-          description: "Reproducing OpenAI&#39;s CLIP model to understand multimodal representation learning",
+          section: "News",},{id: "news-started-my-ter-travaux-d-étude-et-de-recherche-at-cea-list-lasti-lab-exploring-fine-grained-text-supervision-in-clip-like-models-with-phd-candidate-mehdi-zakaria-adjal",
+          title: 'Started my TER (Travaux d’Étude et de Recherche) at CEA LIST (LASTI Lab),...',
+          description: "",
+          section: "News",},{id: "news-released-liar2-fake-news-detection-a-controlled-study-showing-word2vec-random-forest-beats-deberta-v3-by-7-f1-when-text-alone-is-the-signal",
+          title: 'Released LIAR2 fake news detection, a controlled study showing Word2Vec + Random Forest...',
+          description: "",
+          section: "News",},{id: "news-built-dragon-s-den-ai-solo-in-24-hours-at-hackeurope-2026-a-real-time-multi-agent-startup-pitch-simulator-with-three-ai-venture-capitalists-repository",
+          title: 'Built Dragon’s Den AI solo in 24 hours at HackEurope 2026, a real-time...',
+          description: "",
+          section: "News",},{id: "news-2nd-place-at-the-epfl-quantum-hackathon-2026-quandela-swaptions-challenge-built-a-photonic-quantum-reservoir-computing-pipeline-with-perceval-and-merlin-repository",
+          title: '2nd place at the EPFL Quantum Hackathon 2026, Quandela Swaptions Challenge. Built a...',
+          description: "",
+          section: "News",},{id: "news-final-week-of-my-ter-research-project-at-cea-list-on-fine-grained-text-supervision-in-clip-style-models-supervised-by-prof-adrian-popescu",
+          title: 'Final week of my TER research project at CEA LIST on fine-grained text...',
+          description: "",
+          section: "News",},{id: "projects-fine-grained-text-supervision-in-clip-like-models",
+          title: 'Fine-Grained Text Supervision in CLIP-like Models',
+          description: "TER research project at CEA LIST, exploring how specialized captions reshape vision-language alignment.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_clip/";
-            },},{id: "projects-bayesian-image-super-resolution",
-          title: 'Bayesian Image Super-Resolution',
-          description: "Deep modeling of image statistics for super-resolution using Bayesian principles",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_bayesian_sr/";
-            },},{id: "projects-ai-powered-educational-content-generation",
-          title: 'AI-Powered Educational Content Generation',
-          description: "LLM evaluation framework and automated content generation at PyxiScience",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_pyxiscience/";
-            },},{id: "projects-weather-prediction-model",
-          title: 'Weather Prediction Model',
-          description: "Multi-variate meteorological forecasting at Hi!Paris Hackathon",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_hiparis/";
-            },},{id: "projects-sentiment-analysis",
-          title: 'Sentiment Analysis',
-          description: "NLP-based sentiment classification on IMDB movie reviews",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_sentiment/";
-            },},{id: "projects-knapsack-algorithm-comparison",
-          title: 'Knapsack Algorithm Comparison',
-          description: "Comparative analysis of optimization algorithms for the 0/1 Knapsack problem",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_knapsack/";
+              window.location.href = "/projects/01_ter_clip_finegrained/";
             },},{id: "projects-clip-from-scratch",
           title: 'CLIP from Scratch',
-          description: "A complete PyTorch implementation of CLIP with educational documentation",
+          description: "A complete, well-documented PyTorch reimplementation of OpenAI&#39;s CLIP, built as a baseline for my TER research and as a study of contrastive vision-language alignment.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/clip_from_scratch/";
+              window.location.href = "/projects/02_clip_from_scratch/";
+            },},{id: "projects-fake-news-detection-on-liar2-a-multimodal-nlp-study",
+          title: 'Fake News Detection on LIAR2: A Multimodal NLP Study',
+          description: "A progressive study from TF-IDF and Word2Vec to DeBERTa-v3 fine-tuning and Late Fusion, showing why metadata beats transformers when the text is too short to carry the signal.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/03_m1_nlp_liar2/";
+            },},{id: "projects-sampling-quality-trade-offs-in-denoising-diffusion-probabilistic-models",
+          title: 'Sampling-Quality Trade-offs in Denoising Diffusion Probabilistic Models',
+          description: "A from-scratch reproduction study of DDPMs on CIFAR-10 under a fixed 100-epoch training budget, with a T-ablation, a deterministic DDIM evaluation, and a per-timestep noise-prediction MSE diagnostic.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04_ddpm_compute_constrained/";
+            },},{id: "projects-epfl-quantum-hackathon-2026-2nd-place",
+          title: 'EPFL Quantum Hackathon 2026: 2nd Place',
+          description: "Predicting implied volatility surfaces for swaptions with classical ML and a photonic Quantum Reservoir built in Quandela&#39;s Perceval and MerLin.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_epfl_quantum_hackathon/";
+            },},{id: "projects-quantum-algorithm-exploration-with-qiskit-amp-perceval",
+          title: 'Quantum Algorithm Exploration with Qiskit &amp;amp; Perceval',
+          description: "Hands-on study of the canonical quantum algorithms (Deutsch–Jozsa, Grover, QFT, Shor, VQE, QAOA) and of quantum error correction codes, in both gate-based and photonic frameworks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_qiskit_quantum_algorithms/";
+            },},{id: "projects-mpi-amp-distributed-algorithms-portfolio",
+          title: 'MPI &amp;amp; Distributed Algorithms: Portfolio',
+          description: "Implementations and benchmarks of parallel algorithms studied in the M1 HPC track at Paris-Saclay (course by Karim Hasnaoui, IJCLab).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/20_mpi_distributed_systems/";
+            },},{id: "projects-pyxiscience-llm-evaluation-amp-production-content-pipeline",
+          title: 'PyxiScience: LLM Evaluation &amp;amp; Production Content Pipeline',
+          description: "Building, benchmarking and deploying the LLM-driven math-exercise generation pipeline that powers PyxiScience, an adaptive learning platform now used by 50k+ students at institutions including Sorbonne Paris Nord and NYU Paris.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/30_pyxiscience/";
+            },},{id: "projects-dragon-39-s-den-ai-multi-agent-pitch-evaluation",
+          title: 'Dragon&amp;#39;s Den AI: Multi-Agent Pitch Evaluation',
+          description: "A research-driven AI product for early-stage startup evaluation. Three agent personas with distinct investment theses listen to a founder pitch, debate, and converge on a verdict. Bootstrapped at HackEurope 2026, in active development.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/31_dragons_den/";
+            },},{id: "projects-hi-paris-hackathon-2025-top-3-of-400",
+          title: 'Hi! Paris Hackathon 2025: Top 3 of 400+',
+          description: "PISA Education Innovation Challenge at the Hi! Paris Hackathon 2025 (École Polytechnique × HEC). Two-deliverable submission combining a stacked ML pipeline (R² ≈ 0.77 on the leaderboard) with an AI-powered education product proposal targeting the 23.4% high-potential / low-motivation segment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/32_hiparis_2025/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%73%69%64%61%68%6D%65%64%62%6F%75%61%6D%61%6D%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Sidxah", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/sid-ahmed-bouamama", "_blank");
         },
       },{
         id: 'social-rss',
@@ -435,20 +148,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
