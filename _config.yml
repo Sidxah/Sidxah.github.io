@@ -10,13 +10,20 @@ email: sidahmedbouamama@gmail.com
 contact_note: >
   Feel free to reach out via email or LinkedIn.
 description: >
-  M1 QDCS Student at Paris-Saclay University with strong interest in Artificial Intelligence, Computer Vision, and Self-Supervised Learning.
+  Personal page of Sid Ahmed Bouamama — M1 in Quantum & Distributed Computer Science at Paris-Saclay,
+  research intern at CEA LIST. Working on self-supervised representation learning and world models,
+  quantum machine learning, and high-performance computing for AI.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: machine-learning, computer-vision, self-supervised-learning, deep-learning, AI, CLIP
+  © Sid Ahmed Bouamama — built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on the
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by
+  <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: >
+  Sid Ahmed Bouamama, computer vision, self-supervised learning, world models, JEPA, V-JEPA, CLIP,
+  vision-language models, quantum computing, quantum machine learning, QML, Perceval, MerLin, Quandela,
+  Qiskit, photonic quantum computing, quantum reservoir computing, HPC, MPI, OpenMP, distributed AI,
+  deep learning, Paris-Saclay, QDCS, CEA LIST, M2 admission 2026
 lang: en
-icon: ⚛️
+icon: ""
 
 url: https://sidxah.github.io
 baseurl:
@@ -60,9 +67,9 @@ max_width: 930px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false
-serve_schema_org: false
-og_image:
+serve_og_meta: true
+serve_schema_org: true
+og_image: /assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -79,8 +86,8 @@ bing_site_verification:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: notes
+blog_description: occasional technical notes — research reading, paper walkthroughs, project debriefs.
 permalink: /blog/:year/:title/
 lsi: false
 
@@ -122,8 +129,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
@@ -168,6 +173,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - MIGRATION_NOTES.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -175,7 +181,6 @@ keep_files:
 plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
@@ -227,11 +232,9 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories]
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
-display_categories: ["external-services"]
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -394,7 +397,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

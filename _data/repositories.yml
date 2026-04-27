@@ -1,14 +1,16 @@
+# Settings for the /repositories/ page.
+#
+# `github_users`: your GitHub usernames whose stats card you want to show.
+# `github_repos`: repositories to embed as cards.
+
 github_users:
-  - torvalds
-  - alshedivat
+  - Sidxah
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Sidxah/CLIP-from-scratch
+  - Sidxah/EPFL-Quantum-Hackathon-2026
+  - Sidxah/M1-NLP-LIAR2-FakeNews-Detection
+  - Sidxah/M1-HPC-Parallel-Computing
+  - Sidxah/HiParis-Hackathon-2025

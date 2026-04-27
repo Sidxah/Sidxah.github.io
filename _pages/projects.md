@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A collection of my research projects and implementations in AI, Computer Vision, and Machine Learning.
+description: Selected research projects and implementations across the three areas I work in (Vision &amp; Multimodal AI, Quantum Computing, HPC &amp; Distributed Systems), plus applied AI engineering work.
 nav: true
 nav_order: 2
-display_categories: [Research, AI & Machine Learning, Algorithms]
+display_categories: ["Vision & Multimodal AI", "Quantum Computing", "HPC & Distributed AI", "AI Engineering & Tools"]
 horizontal: false
 ---
 

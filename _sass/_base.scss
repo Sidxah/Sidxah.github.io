@@ -2,6 +2,62 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// ─── Typography overrides ──────────────────────────────────────────────────
+// Site-wide font stack: Inter for body & UI, Inter Tight for display headings,
+// JetBrains Mono for code. All loaded via Google Fonts in head.liquid.
+
+body,
+.navbar,
+.profile,
+.post,
+.publications,
+.repositories,
+.projects {
+  font-family:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, sans-serif;
+  font-feature-settings: "ss01", "cv11", "calt"; // tabular nums + nicer letterforms
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.profile h1 {
+  font-family:
+    "Inter Tight", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+code,
+pre,
+kbd,
+samp,
+tt,
+.highlight,
+.language-plaintext {
+  font-family:
+    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
+  font-feature-settings: "liga" 0, "calt" 0; // disable ligatures in code
+}
+
+// Slightly tighter line height in long-form content for better density.
+.post p,
+.publications p,
+article p {
+  line-height: 1.65;
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+
 // Typography
 
 p,

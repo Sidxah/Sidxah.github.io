@@ -1,0 +1,51 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, calc}
+
+\definecolor{accent}{HTML}{1E3A8A}
+\definecolor{boxfill}{HTML}{F1F5F9}
+\definecolor{boxstroke}{HTML}{475569}
+
+\begin{document}
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  >={Latex[length=2.5mm, width=2mm]},
+  box/.style={
+    draw=boxstroke, line width=0.6pt, fill=boxfill,
+    rounded corners=2pt, inner sep=8pt,
+    align=center, minimum width=58mm, minimum height=22mm
+  },
+  llmbox/.style={
+    draw=boxstroke, line width=0.7pt, fill=accent!12,
+    rounded corners=2pt, inner sep=8pt,
+    align=center, minimum width=72mm
+  },
+  arrow/.style={->, line width=0.6pt, draw=boxstroke},
+  edgenote/.style={font=\footnotesize, color=boxstroke, align=center}
+]
+
+\node[box] (front) {\textbf{Next.js Frontend} \\[2pt]
+  \footnotesize Pitch form $\;\cdot\;$ Live chat $\;\cdot\;$ Verdicts};
+
+\node[box, right=44mm of front] (back) {\textbf{FastAPI Backend} \\[2pt]
+  \footnotesize Orchestrator $\;\cdot\;$ 3-agent loop \\[1pt]
+  \footnotesize Tag parser $\;\cdot\;$ Live web search};
+
+% Top arrow: HTTP POST front -> back
+\draw[arrow] ($(front.east) + (0, 4mm)$) -- ($(back.west) + (0, 4mm)$)
+  node[edgenote, midway, above=1pt] {POST /api/sessions};
+
+% Bottom arrow: WebSocket back -> front (streaming back)
+\draw[arrow] ($(back.west) + (0, -4mm)$) -- ($(front.east) + (0, -4mm)$)
+  node[edgenote, midway, below=1pt] {WebSocket streaming \\ tokens, convictions, phase changes, verdicts};
+
+% LLM block below backend
+\node[llmbox, below=24mm of back] (llm) {\textbf{Claude Sonnet 4.5} \\[2pt]
+  \footnotesize Three system prompts ($\sim$500 lines each) \\[1pt]
+  \footnotesize Prompt caching $\;\cdot\;$ Streaming tokens};
+
+\draw[arrow] (back) -- (llm);
+
+\end{tikzpicture}
+\end{document}
